@@ -1,0 +1,18 @@
+public class coche {
+
+        private int puertas = 3;
+
+
+        public void incrementarPuertas(int x){
+            puertas = puertas + x;
+        }
+
+        public void mostrarPuertas(){
+            System.out.println("Cantidad de Puertas de miCoche: " + puertas);
+        }
+        public static void main(String[] args) {
+            coche miCoche = new coche();
+            miCoche.incrementarPuertas(1);
+            miCoche.mostrarPuertas();
+        }
+}
